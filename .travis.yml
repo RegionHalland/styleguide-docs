@@ -20,4 +20,4 @@ deploy:
   on:
     branch: master
   repo: regionhalland/styleguide-docs
-  target_branch: master
+  target_branch: gh-pages
