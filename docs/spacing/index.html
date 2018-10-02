@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en" class="bg-white antialiased">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Spacing - Tailwind CSS</title>
+	<meta name="theme-color" content="#ffffff">
+		<link rel="stylesheet" href="/assets/build/css/main.css?id=efdaa74c08e57bfd5f78">
+	<link rel="stylesheet" href="https://raw.githubusercontent.com/RegionHalland/styleguide/v2/dist/main.css">
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+	<script src="https://regionhalland.github.io/styleguide-docs/assets/build/js/prism.js?id=fa3f7c0442feaf2c21e2"></script>
+	<script src="https://regionhalland.github.io/styleguide-docs/assets/build/js/main.js?id=5f12ab764f9a6aae0580"></script>
+</head>
+<body data-sidebar-visible="true" class="font-normal text-black leading-normal">
+
+
+
+<div class="flex bg-white border-b border-grey-lighter fixed pin-t pin-x z-10 h-16 items-center">
+  <div class="w-full max-w-screen-xl relative mx-auto px-6">
+    <div class="flex items-center -mx-6">
+
+      <div class="flex flex-grow items-center lg:w-3/4 xl:w-4/5">
+
+        <div id="sidebar-open" class="flex px-6 items-center lg:hidden">
+          <svg class="fill-current w-4 h-4 cursor-pointer text-grey" role="button" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+        </div>
+
+        <div id="sidebar-close" class="hidden px-6 items-center lg:hidden">
+          <svg class="fill-current w-4 h-4 cursor-pointer text-grey" role="button" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M10 8.586L2.929 1.515 1.515 2.929 8.586 10l-7.071 7.071 1.414 1.414L10 11.414l7.071 7.071 1.414-1.414L11.414 10l7.071-7.071-1.414-1.414L10 8.586z"/></svg>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+<div class="w-full container mx-auto px-6">
+	<div class="lg:flex -mx-6">
+
+		
+		<div id="sidebar" class="hidden px-6 lg:px-0 absolute z-0 mt-24 bg-white w-full border-b lg:-mb-0 lg:static lg:bg-transparent lg:border-b-0 lg:pt-0 lg:w-1/4 lg:block lg:border-0 xl:w-1/5">
+			<div class="lg:block lg:relative lg:sticky">
+				<nav>
+							<div>
+					<p>Getting Started</p>
+					<ul>
+										  					    <li class="mb-3 lg:mb-2"><a href="https://regionhalland.github.io/styleguide-docs/docs/">Introduction</a></li>
+					  										  					    <li class="mb-3 lg:mb-2"><a href="https://regionhalland.github.io/styleguide-docs/docs/installation">Installation</a></li>
+					  										  					    <li class="mb-3 lg:mb-2"><a href="https://regionhalland.github.io/styleguide-docs/docs/configuration">Configuration</a></li>
+					  										</ul>
+				</div>
+							<div>
+					<p>Utilities</p>
+					<ul>
+										  					    <li class="mb-3 lg:mb-2"><a href="https://regionhalland.github.io/styleguide-docs/docs/spacing">Margin &amp; Padding</a></li>
+					  										</ul>
+				</div>
+							<div>
+					<p>Components</p>
+					<ul>
+										  					    <li class="mb-3 lg:mb-2"><a href="https://regionhalland.github.io/styleguide-docs/docs/button">Button</a></li>
+					  										</ul>
+				</div>
+			    	</nav>
+	      </div>
+	    </div>
+	    		
+
+          
+          <div class="pt-24 pb-8 lg:pt-28 w-full">
+            <div class="markdown mb-6 px-6 max-w-lg mx-auto lg:ml-0 lg:mr-auto xl:mx-0 xl:px-12 xl:w-3/4">
+              <h1>Spacing</h1>
+                              <div class="text-xl text-grey-dark mb-4">
+                  Utilities for controlling an element&#039;s padding and margin.
+                </div>
+                          </div>
+            <div class="flex">
+              <div class="markdown px-6 xl:px-12 w-full max-w-lg mx-auto lg:ml-0 lg:mr-auto xl:mx-0 xl:w-3/4">
+                <p>Control an element's padding and margin using the <code>.p{side?}-{size}</code>, <code>.m{side?}-{size}</code>, and <code>.-m{side?}-{size}</code> utilities.</p>
+<p>For example, <code>.pt-2</code> would add <code>.5rem</code> of padding to the top of the element, <code>.mx-0</code> would make the horizontal margin zero, and <code>.-mb-6</code> would add a <code>1.5rem</code> negative margin to the bottom of an element.</p>
+<div class="flex items-start mt-8 text-sm">
+  <div class="pr-12">
+    <div class="mb-3 text-grey-darker uppercase">Class</div>
+    <div>
+<code class="inline-block my-1 mr-1 px-2 py-1 font-mono border rounded">p</code> Padding</div>
+    <div>
+<code class="inline-block my-1 mr-1 px-2 py-1 font-mono border rounded">m</code> Margin</div>
+    <div>
+<code class="inline-block my-1 mr-1 px-2 py-1 font-mono border rounded">-m</code> Negative Margin</div>
+  </div>
+  <div class="pl-12 pr-12 border-l">
+    <div class="mb-3 text-grey-darker">
+<span class="uppercase">Side</span> <span class="text-grey-dark text-xs">(optional)</span>
+</div>
+    <div>
+<code class="inline-block my-1 mr-1 px-2 py-1 font-mono border rounded bg-grey-lighter"> </code> All <em class="text-xs text-grey-dark">(default)</em>
+</div>
+    <div>
+<code class="inline-block my-1 mr-1 px-2 py-1 font-mono border rounded">t</code> Top</div>
+    <div>
+<code class="inline-block my-1 mr-1 px-2 py-1 font-mono border rounded">r</code> Right</div>
+    <div>
+<code class="inline-block my-1 mr-1 px-2 py-1 font-mono border rounded">b</code> Bottom</div>
+    <div>
+<code class="inline-block my-1 mr-1 px-2 py-1 font-mono border rounded">l</code> Left</div>
+    <div>
+<code class="inline-block my-1 mr-1 px-2 py-1 font-mono border rounded">x</code> Horizontal</div>
+    <div>
+<code class="inline-block my-1 mr-1 px-2 py-1 font-mono border rounded">y</code> Vertical</div>
+  </div>
+  <div class="pl-12 border-l">
+    <div class="mb-3 text-grey-darker uppercase">Space</div>
+    <div>
+<code class="inline-block my-1 mr-1 px-2 py-1 font-mono border rounded">0</code> 0</div>
+    <div>
+<code class="inline-block my-1 mr-1 px-2 py-1 font-mono border rounded">1</code> 0.25rem</div>
+    <div>
+<code class="inline-block my-1 mr-1 px-2 py-1 font-mono border rounded">2</code> 0.5rem</div>
+    <div>
+<code class="inline-block my-1 mr-1 px-2 py-1 font-mono border rounded">3</code> 0.75rem</div>
+    <div>
+<code class="inline-block my-1 mr-1 px-2 py-1 font-mono border rounded">4</code> 1rem</div>
+    <div>
+<code class="inline-block my-1 mr-1 px-2 py-1 font-mono border rounded">5</code> 1.25rem</div>
+    <div>
+<code class="inline-block my-1 mr-1 px-2 py-1 font-mono border rounded">6</code> 1.5rem</div>
+    <div>
+<code class="inline-block my-1 mr-1 px-2 py-1 font-mono border rounded">8</code> 2rem</div>
+    <div>
+<code class="inline-block my-1 mr-1 px-2 py-1 font-mono border rounded">10</code> 2.5rem</div>
+    <div>
+<code class="inline-block my-1 mr-1 px-2 py-1 font-mono border rounded">12</code> 3rem</div>
+    <div>
+<code class="inline-block my-1 mr-1 px-2 py-1 font-mono border rounded">16</code> 4rem</div>
+    <div>
+<code class="inline-block my-1 mr-1 px-2 py-1 font-mono border rounded">20</code> 5rem</div>
+    <div>
+<code class="inline-block my-1 mr-1 px-2 py-1 font-mono border rounded">24</code> 6rem</div>
+    <div>
+<code class="inline-block my-1 mr-1 px-2 py-1 font-mono border rounded">32</code> 8rem</div>
+    <div>
+<code class="inline-block my-1 mr-1 px-1 py-1 font-mono border rounded">px</code> 1px</div>
+    <div>
+<code class="inline-block my-1 mr-1 px-1 py-1 font-mono border rounded">auto</code> auto <span class="text-grey-dark text-xs">(margins only)</span>
+</div>
+  </div>
+</div>
+<h2>Customizing</h2>
+<h3>Responsive and State Variants</h3>
+<p>By default, only responsive variants are generated for margin, negative margin and padding utilities.</p>
+<p>You can control which variants are generated for the list utilities by modifying the <code>margin</code>, <code>negativeMargin</code> and <code>padding</code> property in the <code>modules</code> section of your Tailwind config file.</p>
+<p>For example, this config will <em>also</em> generate hover and focus variants of the margin utilities, hover variants of the negative margin utilities, and focus variants of the padding utilities:</p>
+<pre><code class="language-js">{
+    // ...
+    modules: {
+        // ...
+        margin: ['responsive', 'hover', 'focus'],
+        negativeMargin: ['responsive', 'hover'],
+        padding: ['responsive', 'focus'],
+    }
+}</code></pre>
+<h3>Disabling</h3>
+<p>If you aren't using the margin, the negative margin, or padding utilities in your project, you can disable them entirely by setting the <code>margin</code>, <code>negativeMargin</code> and <code>padding</code> property to <code>false</code> in the <code>modules</code> section of your config file:</p>
+<pre><code class="language-js">{
+    // ...
+    modules: {
+        // ...
+        margin: false,
+        negativeMargin: false,
+        padding: false,
+    }
+}</code></pre>              </div>
+
+              
+              <div class="hidden xl:text-sm xl:block xl:w-1/4 xl:px-6">
+                <div class="flex flex-col justify-between overflow-y-auto sticky top-16 max-h-(screen-16) pt-12 pb-4 -mt-12">
+                  <table-of-contents class="mb-8"></table-of-contents>
+                  <div id="ad"></div>
+                </div>
+              </div>
+              
+
+            </div>
+          </div>
+          
+
+	</div>
+</div>
+
+
+</body>
+</html>
