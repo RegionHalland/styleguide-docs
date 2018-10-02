@@ -2,7 +2,7 @@
 
 @push('headScripts')
 <script src="{{ $page->baseUrl . mix('js/prism.js', 'assets/build') }}"></script>
-	<script src="{{ $page->baseUrl . mix('js/main.js', 'assets/build') }}"></script>
+<script src="{{ $page->baseUrl . mix('js/main.js', 'assets/build') }}"></script>
 @endpush
 
 @section('body')
