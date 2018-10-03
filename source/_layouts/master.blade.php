@@ -8,7 +8,7 @@
 	<meta name="theme-color" content="#ffffff">
 	@yield('meta')
 	<link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
-	<link rel="stylesheet" href="{{ $page->production ? 'https://raw.githubusercontent.com/RegionHalland/styleguide/v2/dist/main.css' : 'http://styleguide.test/dist/main.css' }}">
+	<link rel="stylesheet" href="{{ $page->production ? 'https://unpkg.com/@regionhalland/styleguide-v2@0.0.8/dist/main.css' : 'http://styleguide.test/dist/main.css' }}">
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 	@stack('headScripts')
 </head>

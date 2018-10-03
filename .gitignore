@@ -1,5 +1,6 @@
 /build_local/
 /build_production/
+/source/assets
 /node_modules/
 /vendor/
 .DS_Store
