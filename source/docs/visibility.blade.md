@@ -24,21 +24,22 @@ features:
   ]
 ])
 
-## Visible <span class="ml-2 font-semibold text-grey-dark text-sm uppercase tracking-wide">Default</span>
+
+### Visible
 
 Use `.visible` to make an element visible. This will typically be used as a reset when using the `.invisible` utility.
 
-@component('_partials.code-sample', ['class' => 'flex justify-center'])
+```html
 <div class="visible bg-grey-light w-24 h-24 rounded-full"></div>
-@endcomponent
+```
 
 ## Invisible
 
 Use `.invisible` to hide an element, but still maintain its space.
 
-@component('_partials.code-sample', ['class' => 'flex justify-center'])
+```html
 <div class="invisible bg-grey-light w-24 h-24 rounded-full"></div>
-@endcomponent
+```
 
 ## Responsive
 
@@ -51,30 +52,30 @@ For more information about Tailwind's responsive design features, check out the 
 <div class="flex justify-center">
   <div class="visible bg-grey-light w-24 h-24 rounded-full"></div>
 </div>
-```
-```
+@endslot
+@slot('sm')
 <div class="flex justify-center">
   <div class="invisible bg-grey-light w-24 h-24 rounded-full"></div>
 </div>
-```
+@endslot
 @slot('md')
 <div class="flex justify-center">
   <div class="visible bg-grey-light w-24 h-24 rounded-full"></div>
 </div>
-```
+@endslot
 @slot('lg')
 <div class="flex justify-center">
   <div class="invisible bg-grey-light w-24 h-24 rounded-full"></div>
 </div>
-```
+@endslot
 @slot('xl')
 <div class="flex justify-center">
   <div class="visible bg-grey-light w-24 h-24 rounded-full"></div>
 </div>
-```
-```
+@endslot
+@slot('code')
 <div class="none:visible sm:invisible md:visible lg:invisible xl:visible ..."></div>
-```
+@endslot
 @endcomponent
 
 ## Customizing
