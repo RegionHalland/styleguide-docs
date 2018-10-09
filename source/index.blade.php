@@ -1,5 +1,5 @@
 @extends('_layouts.documentation')
 
 @section('content')
-	<h1>Getting started</h1>
-@endsection
+	<h1>Styleguide - Region Halland</h1>
+@endsection	
