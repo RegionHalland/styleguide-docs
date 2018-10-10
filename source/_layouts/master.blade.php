@@ -9,6 +9,7 @@
 	@yield('meta')
 	<link rel="stylesheet" href="{{ $page->baseUrl . mix('css/main.css', 'assets/build') }}">
 	<link rel="stylesheet" href="{{ $page->styleguideUrl }}">
+	<link rel="stylesheet" href="https://use.typekit.net/vip6kss.css">
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 	<script src="{{ $page->baseUrl . mix('js/prism.js', 'assets/build') }}"></script>
 	<script src="{{ $page->baseUrl . mix('js/main.js', 'assets/build') }}"></script>
