@@ -26,7 +26,7 @@
 	<div class="lg:flex -mx-6">
 
 		{{-- Side nav --}}
-		<div id="sidebar" class="hidden px-6 absolute z-0 mt-24 bg-white w-full border-b lg:-mb-0 lg:static lg:bg-transparent lg:border-b-0 lg:pt-0 lg:w-1/4 lg:block lg:border-0 xl:w-1/5">
+		<div id="sidebar" class="hidden px-6 absolute z-0 mt-24 bg-white w-full border-b lg:-mb-0 lg:static lg:bg-transparent lg:border-b-0 lg:pt-0 lg:w-3/12 lg:block lg:border-0 xl:w-3/12">
 			<div class="lg:block lg:relative lg:sticky">
 				@include('_partials.navigation')
 			</div>
@@ -35,7 +35,7 @@
 
 		{{-- Main content area --}}
 		<div class="pt-24 pb-8 lg:pt-28 w-full">
-			<div class="markdown mb-6 px-6 max-w-lg mx-auto lg:ml-0 lg:mr-auto xl:mx-0 xl:px-12 xl:w-3/4">
+			<div class="markdown mb-6 px-6 max-w-lg mx-auto lg:ml-0 lg:mr-auto xl:mx-0 xl:px-12 xl:w-full">
 				<h1>{{ $page->title }}</h1>
 				<p class="text-lg text-grey-dark">{{ $page->description }}</p>
 			</div>

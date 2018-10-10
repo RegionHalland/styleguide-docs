@@ -7,6 +7,7 @@ return [
         'Button' => 'button',
     ],
     'Layout' => [
+        'Grids' => 'grids',
         'Container' => 'container',
         'Display' => 'display',
         'Floats' => 'floats',
