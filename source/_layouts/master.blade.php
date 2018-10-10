@@ -8,7 +8,7 @@
 	<meta name="theme-color" content="#ffffff">
 	@yield('meta')
 	<link rel="stylesheet" href="{{ $page->baseUrl . mix('css/main.css', 'assets/build') }}">
-	<link rel="stylesheet" href="https://unpkg.com/@regionhalland/styleguide-v2@0.2.0/dist/css/main.min.css">
+	<link rel="stylesheet" href="{{ $page->styleguideUrl }}">
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 	<script src="{{ $page->baseUrl . mix('js/prism.js', 'assets/build') }}"></script>
 	<script src="{{ $page->baseUrl . mix('js/main.js', 'assets/build') }}"></script>
