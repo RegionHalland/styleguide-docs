@@ -26,7 +26,7 @@
 	<div class="lg:flex -mx-6">
 
 		{{-- Side nav --}}
-		<div id="sidebar" class="hidden px-6 absolute z-0 mt-24 bg-white w-full md:w-3/12 border-b lg:-mb-0 lg:static lg:bg-transparent lg:border-b-0 lg:pt-0 lg:w-1/4 lg:block lg:border-0 xl:w-1/5">
+		<div id="sidebar" class="hidden px-6 absolute z-0 mt-24 bg-white w-full border-b lg:-mb-0 lg:static lg:bg-transparent lg:border-b-0 lg:pt-0 lg:w-3/12 lg:block lg:border-0 xl:w-3/12">
 			<div class="lg:block lg:relative lg:sticky">
 				@include('_partials.navigation')
 			</div>

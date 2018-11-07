@@ -8,6 +8,7 @@ return [
         'Tabs' => 'tabs',
     ],
     'Layout' => [
+        'Grids' => 'grids',
         'Container' => 'container',
         'Display' => 'display',
         'Floats' => 'floats',
