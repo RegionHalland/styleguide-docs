@@ -5,6 +5,7 @@ return [
     ],
     'Components' => [
         'Button' => 'button',
+        'Tabs' => 'tabs',
     ],
     'Layout' => [
         'Container' => 'container',
