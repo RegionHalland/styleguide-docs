@@ -1,7 +1,7 @@
 ---
 extends: _layouts.documentation
-title: "Installation"
-description: "Setting up the styleguide"
+title: "Installation & Användning"
+description: "Kom igång med Region Hallands Styleguide"
 ---
 
 ## Vad är styleguiden?
