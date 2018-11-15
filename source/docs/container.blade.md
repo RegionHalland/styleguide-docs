@@ -5,7 +5,7 @@ description: "A component for fixing an element's width to the current breakpoin
 ---
 
 <h2 style="visibility: hidden; font-size: 0; margin: 0;">Class reference</h2>
-<div class="border border-grey-light mb-12">
+<div class="border border-grey-light rounded mb-12">
   <table class="w-full text-left table-collapse border-grey-light ">
     <thead>
       <tr>

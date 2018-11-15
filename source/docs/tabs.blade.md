@@ -4,9 +4,9 @@ title: "Tabs"
 description: "A filter component for showing and hiding content"
 ---
 
-# Tabs
+## Filtering Tabs
 
-Tabs are used to filter content. Add the modifier --active to indicate which content is currently being filtered.
+Filtering tabs are used to filter content. Add the modifier --active to indicate which content is currently being filtered.
 
 <div class="bg-grey-lightest p-6 rounded my-2">
 	

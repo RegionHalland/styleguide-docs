@@ -1,11 +1,12 @@
 <?php
 return [
-    'Getting started' => [
+    'Kom igång' => [
         'Installation' => 'installation'
     ],
     'Components' => [
-        'Button' => 'button',
+        'Buttons' => 'buttons',
         'Tabs' => 'tabs',
+        'News Item' => 'news-item',
     ],
     'Layout' => [
         'Grids' => 'grids',

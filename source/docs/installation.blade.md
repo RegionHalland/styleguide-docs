@@ -1,6 +1,6 @@
 ---
 extends: _layouts.documentation
-title: "Installation & Användning"
+title: "Installation & användning"
 description: "Kom igång med Region Hallands Styleguide"
 ---
 
