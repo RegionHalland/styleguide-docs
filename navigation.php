@@ -7,6 +7,7 @@ return [
         'Buttons' => 'buttons',
         'Tabs' => 'tabs',
         'News Item' => 'news-item',
+        'Navigation Link' => 'navigation-link',
     ],
     'Layout' => [
         'Grids' => 'grids',
